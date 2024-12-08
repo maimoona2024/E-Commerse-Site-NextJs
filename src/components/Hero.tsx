@@ -42,9 +42,11 @@ const Hero = () => {
                 {/* Slider */}
                 <div className="w-4/5 p-3">
                     <div className="relative w-full overflow-hidden border border-gray-300 rounded-lg">
-                        <img
+                        <Image
                             src="/Frame 560.png"
                             alt="Banner"
+                            width={"600"}
+                            height={"600"}
                             className="w-full h-auto rounded-lg"
                         />
                     </div>
@@ -54,8 +56,8 @@ const Hero = () => {
                 <div className='bg-[#DB4444] h-[40px] w-[20px] rounded-md'>
                     .
                 </div>
-                <h1 className='text-[#DB4444] font-bold text-[20px]'>Today's</h1>
-            </div>
+                <h1 className='text-[#DB4444] font-bold text-[20px]'>Today&apos;s</h1>
+                </div>
 
 
             <div className='flex items-center justify-between py-8'>
